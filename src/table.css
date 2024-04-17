@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.tableWrap {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+table td {
+    background-color: white;
+}
+
+table th {
+    color: black;
+}
+
+.table {
+    border-collapse: collapse;
+}
+
+.componentWrap {
+    display: grid;
+    row-gap: 20px;
+    text-align: center;
+}
+
+.table {
+    width: 100%;
+}
+
+.inputWrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.inputAdd {
+    width: 220px;
+    height: 50px;
+    padding-left: 20px;
+    border-radius: 10px;
+    border: 2px solid gainsboro;
+}
+
+.btnAdd {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #42a66a;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btnAdd:hover {
+    background-color: #387f55;
+}
+
+.headTable {
+    background-color: rgba(178, 159, 218, 0.436);
+    padding: 10px;
+    border: 2px solid black;
+   
+}
+
+.edit {
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btnEdit:hover {
+    background-color: rgb(0, 0, 125);
+}
+
+.btnDelete {
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btnDelete:hover {
+    background-color: rgb(120, 0, 0);
+}
